@@ -34,9 +34,9 @@ function activateMenuAtCurrentSection(section){
 
 function showNavOnScroll(){
     if (scrollY > 0)
-        navigation.classList.add('scroll')
+        document.nav.classList.add('scroll')
     else
-        navigation.classList.remove('scroll')
+        document.nav.classList.remove('scroll')
 }
 
 function showBackToTopButtonOnScroll(){
