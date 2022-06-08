@@ -136,7 +136,7 @@ nav div.wrapper{
 }
 
 nav.scroll{
-    background: var(--primary-color);
+    background-color: var(--primary-color);
 }
 
 nav.scroll .logo path{
